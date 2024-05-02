@@ -36,3 +36,4 @@ build/
 rgbd_dataset_freiburg3_long_office_household*
 Vocabulary/ORBvoc.txt
 imgui.ini
+buildnogui/

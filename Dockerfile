@@ -1,9 +1,9 @@
-FROM nvidia/cuda:11.7.0-devel-ubuntu22.04
+FROM nvidia/cuda:11.7.1-devel-ubuntu22.04
 WORKDIR /root
 
 ENV PATH="/usr/local/cuda-11.7/bin:$PATH"
 ENV LD_LIBRARY_PATH="/usr/local/cuda-11.7/lib64:$LD_LIBRARY_PATH"
-ENV TCNN_CUDA_ARCHITECTURES=86
+ENV TCNN_CUDA_ARCHITECTURES=61
 
 ENV N_THREAD=16
 
